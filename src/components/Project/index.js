@@ -10,11 +10,11 @@ export function ProjectListItem({
     repo
   }) {
     return (
-        <div className="col s4 m4 l3 xl4 left blue-grey darken-2">
+        <div className="col s4 left blue-grey darken-2">
             <h4 className="card-title blue-grey darken-2 teal-text text-lighten-5 center-align">{title}</h4>
             <div className="card blue-grey white-text">
                 <div className="card-image">
-                    <img src={image} alt={title}/>
+                    <img src={window.location.origin + image} alt={title}/>
                 </div>
                 <div className="card-content">
                     <p>{description}</p>
