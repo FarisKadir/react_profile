@@ -14,7 +14,7 @@ export function ProjectListItem({
             <h4 className="card-title blue-grey darken-2 teal-text text-lighten-5 center-align">{title}</h4>
             <div className="card blue-grey white-text">
                 <div className="card-image">
-                    <img src={window.location.origin + image} alt={title}/>
+                    <img src={image} alt={title}/>
                 </div>
                 <div className="card-content">
                     <p>{description}</p>
